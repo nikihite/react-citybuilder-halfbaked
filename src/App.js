@@ -16,7 +16,7 @@ function App() {
 
   const [cityName, setCityName] = useState('Bikini Bottom');
   const [slogans, setSlogans] = useState('');
-  const [sloanInForm, setSloganInForm] = useState('');
+  const [sloganInForm, setSloganInForm] = useState('');
   // track some state here.
   // You'll need to keep track of a skylineId, waterfrontId, and castleId. All these start out as 1
   // you'll need to track a city name, which starts as the city name of your choice.
