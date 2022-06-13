@@ -5,9 +5,9 @@ export default function SkylineDropdown({ setSkyline }) {
     <div>
       Select a Skyline
       <select onChange={e => setSkyline(e.target.value)}>
-        <option value="Skyline1">Pink</option>
-        <option value="Skyline2">Busy</option>
-        <option value="Skyline3">Foggy</option>
+        <option value="skyline-1">Pink</option>
+        <option value="skyline-2">Busy</option>
+        <option value="skyline-3">Foggy</option>
       </select>
     </div>
   );
