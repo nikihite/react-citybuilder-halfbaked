@@ -5,9 +5,9 @@ export default function CastleDropdown({ setCastle }) {
     <div>
       Select a Castle
       <select onChange={e => setCastle(e.target.value)}>
-        <option value="1">Serious</option>
-        <option value="2">Mysterious</option>
-        <option value="3">Regal</option>
+        <option value="Castle1">Serious</option>
+        <option value="Castle2">Mysterious</option>
+        <option value="Castle3">Regal</option>
       </select>
     </div>
   );

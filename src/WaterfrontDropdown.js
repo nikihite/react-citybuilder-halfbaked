@@ -5,9 +5,9 @@ export default function WaterfrontDropdown({ setWaterfront }) {
     <div>
       Select a Waterfront
       <select onChange={e => setWaterfront(e.target.value)}>
-        <option value="dock">Dock</option>
-        <option value="sunset">Sunset</option>
-        <option value="boats">Boats</option>
+        <option value="Waterfront1">Dock</option>
+        <option value="Waterfront2">Sunset</option>
+        <option value="Waterfront3">Boats</option>
       </select>
     </div>
   );

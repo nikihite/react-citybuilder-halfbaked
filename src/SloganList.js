@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SloganList(props) {
+export default function SloganList({}) {
   return (
     <section>
       <h2>Your slogans:</h2>
